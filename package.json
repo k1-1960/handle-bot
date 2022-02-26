@@ -1,0 +1,25 @@
+{
+  "name": "handle-bot",
+  "version": "0.0.1",
+  "description": "Complejo manejador de comandos, eventos y comandos barra diagonal para tu bot de discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k1-1960/handle-bot.git"
+  },
+  "keywords": [
+    "commands handle",
+    "events handle",
+    "slashcommands handle",
+    "Discord bot"
+  ],
+  "author": "K1-1960",
+  "license": "Apache-2.0 License",
+  "bugs": {
+    "url": "https://github.com/k1-1960/handle-bot/issues"
+  },
+  "homepage": "https://github.com/k1-1960/handle-bot#readme"
+}
