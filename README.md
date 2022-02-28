@@ -8,31 +8,15 @@ $ npm i handle-bot
 Pon todos tus comandos en una coleccion en tu cliente.
 _Ejemplo:_
 
+<img src="https://raw.githubusercontent.com/k1-1960/handle-bot/main/zenified-code.jpg.png">
 
-```js
-  const { Client, Intents, Collection } = require('discord.js');
-  const client = new Client({ intents: ['Your-intents'] });
-  const handle = require('handle-bot');
-  // Collection ↓
-
-  client.commands = new Collection();
-
-  // Handle
-/*
-* Primer parametro: ruta de la carpeta de comandos.
-* Segundo parámetro: colección de comandos.
-* Tercer parámetro: log? [true o false].
-*
-* ›*‹ = Obligatorio
-**/
-handle.commands('src/commands'*, client.commands*, true);
-
-// Client login
-client.login('token');
+##### Parametros:
+- `PATH` · Ruta de la carpeta
+- `COLLECTION` · colección creada con `new Collection();`
+- `LOG` · `true` si quieres que haga un console.log de los comandos cargados, `false` si no quieres eso.
+##### Mis archivos:
 ```
-Mis archivos:
-```
-AwesomeBot/
+Bot/
 ├── node_modules/
 ├── index.js
 ├── src/

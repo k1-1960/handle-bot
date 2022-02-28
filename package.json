@@ -1,6 +1,6 @@
 {
   "name": "handle-bot",
-  "version": "0.1.1-alpha",
+  "version": "0.1.4-alpha",
   "description": "Complejo manejador de comandos y eventos para tu bot de discord.js con subcarpetas.",
   "main": "index.js",
   "scripts": {
